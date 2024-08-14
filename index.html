@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./main.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Catálogo de Ventas</h1>
+    </header>
+    <div class="contenedor">
+        <div class="botones">
+            <button onclick="mostrarCategoria('accesorios')">Accesorios</button>
+            <button onclick="mostrarCategoria('indumentaria')">Indumentaria</button>
+            <button onclick="mostrarCategoria('electronicos')">Electrónicos</button>
+        </div>
+        <section>
+        <div id="accesorios" class="producto">
+            <h2>Accesorios</h2>
+            <div class="producto-img">
+                <img src="./imagen/casio.webp" alt="Accesorio 1">
+                <p>Accesorio 1 - $100.00</p>
+            </div>
+            <div class="producto-img">
+                <img src="./imagen/funko-kakashi.webp" alt="Accesorio 2">
+                <p>Accesorio 2 - $5.00</p>
+            </div>
+        </div>
+
+        <div id="indumentaria" class="producto">
+            <h2>Indumentaria</h2>
+            <div class="producto-img">
+                <img src="./imagen/remeras-vans.webp" alt="Indumentaria 1">
+                <p>Indumentaria 1 - $15.00</p>
+            </div>
+            <div class="producto-img">
+                <img src="./imagen/cargos-quilsilver.jpg" alt="Indumentaria 2">
+                <p>Indumentaria 2 - $20.00</p>
+            </div>
+        </div>
+
+        <div id="electronicos" class="producto">
+            <h2>Electrónicos</h2>
+            <div class="producto-img">
+                <img src="./imagen/monitor-led-curvo.jpg" alt="Electrónico 1">
+                <p>Electrónico 1 - $1500.00</p>
+            </div>
+            <div class="producto-img">
+                <img src="./imagen/pocesador.jpg" alt="Electrónico 2">
+                <p>Electrónico 2 - $150.00</p>
+            </div>
+        </div>
+    </section>
+    </div>
+
+</body>
+</html>
